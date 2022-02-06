@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://kit.fontawesome.com/dc9180e397.js" crossorigin="anonymous"></script>
+    <title>倆傢家居 2HOME FURNITURE</title>
+</head>
+
+<body class="main-bg">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand d-flex align-items-center mr-0" href="index.html">
+                <img src="images/sofa.svg" alt="book" width="40" height="40" class=" d-lg-inline-block align-top">
+                <div class="ml-md-3 text-main-color text-center">
+                    <h2 class="mt-2 mb-0 fw">倆傢家居</h2>
+                    <small>2HOME FURNITURE</small>
+                </div>
+            </a>
+            <a class="nav-link order-md-2 d-flex align-items-center nav-cart" href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge rounded-circle badge-danger badge-text">0</span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end order-md-1" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-weight-bold" href="product.html">產品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- cart -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8 pb-2 px-2">
+                <h4 class="bg-main-lighter text-main-color text-center py-4">您的購物車</h4>
+                <div class="d-flex flex-column flex-md-row justify-content-md-between border-bottom border-main-lighter py-2">
+                    <div class="flex-fill cart-row-detail d-flex align-items-center">
+                        <div class="cart-image py-2" style="background-image: url(https://images.unsplash.com/photo-1459369510627-9efbee1e6051?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);"></div>
+                        <div class="flex-fill d-flex flex-column flex-md-row align-items-md-center align-items-start pr-3 pl-3">
+                            <div class="pl-2 text-main-color mr-auto">
+                                <h5>快樂途徑</h5>
+                                <span class="h5">NT$390</span>
+                            </div>
+                            <div class="cart-quantity">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button type="button" class="cart-quantity-btn-add btn btn-white btn-outline-main-lighter text-main-color
+                                        d-flex justify-content-center align-items-center">—</button>
+                                    </div>
+                                    <span class="cart-quantity-qty bg-white border border-main-lighter d-flex justify-content-center align-items-center">1</span>
+                                    <div class="input-froup-append">
+                                        <button type="button" class="cart-quantity-btn-remove btn btn-white btn-outline-main-lighter text-main-color
+                                        d-flex justify-content-center align-items-center" >＋</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-price d-flex align-items-center justify-content-end py-2">
+                        <span class="h4 mb-0 text-main-color">NT$ 390</span>
+                        <a class="btn text-main-color" href="#removeModal">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-md-between border-bottom border-main-lighter py-2">
+                    <div class="flex-fill cart-row-detail d-flex align-items-center">
+                        <div class="cart-image py-2" style="background-image: url(https://images.unsplash.com/photo-1467951591042-f388365db261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);">
+                        </div>
+                        <div class="flex-fill d-flex flex-column flex-md-row align-items-md-center align-items-start pr-3 pl-3">
+                            <div class="pl-2 text-main-color mr-auto">
+                                <h5>散文集</h5>
+                                <span class="h5">NT$480</span>
+                            </div>
+                            <div class="cart-quantity">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button type="button" class="cart-quantity-btn-add btn btn-white btn-outline-main-lighter text-main-color
+                                        d-flex justify-content-center align-items-center">—</button>
+                                    </div>
+                                    <span class="cart-quantity-qty bg-white border border-main-lighter d-flex justify-content-center align-items-center">
+                                        1
+                                    </span>
+                                    <div class="input-froup-append">
+                                        <button type="button" class="cart-quantity-btn-remove btn btn-white btn-outline-main-lighter text-main-color
+                                        d-flex justify-content-center align-items-center" >＋</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-price d-flex align-items-center justify-content-end py-2">
+                        <span class="h4 mb-0 text-main-color">NT$ 480</span>
+                        <a class="btn text-main-color" href="#removeModal">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 px-2">
+                <div class="card-summarybox px-3 bg-main-darker mx-2">
+                    <h4 class="text-white text-center pt-4 pb-2">
+                        訂單摘要
+                    </h4>
+                    <hr class="border-white">
+                    <div class="d-flex justify-content-between text-white pb-2">
+                        <span class="h5">小計</span>
+                        <span class="h5">NT$ 870</span>
+                    </div>
+                    <div class="d-flex justify-content-between text-white pb-2">
+                        <span class="h5">運費</span>
+                        <span class="h5">NT$ <del class="h5 text-second-color">60</del> 0</span>
+                    </div>
+                    <div class="d-flex justify-content-between text-white pb-2">
+                        <span class="h4">合計</span>
+                        <span class="h4 font-weight-bold">NT$ 870</span>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <a href="checkout-1.html" class="btn btn-main-color btn-block text-light btn-lg py-3">
+                        結帳
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 訂閱 -->
+    <section class="bg-main-color py-2">
+        <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-md-5 d-flex align-items-center justify-content-center p-4 mb-1 mb-md-0">
+                    <img src="images/sofa.svg" style="width: 40px;">
+                    <span class="h4 mb-0 text-white sbu-text pl-3">訂閱，讓每刻都在享受</span>
+                </div>
+
+                <div class="col-md-5 d-flex justify-content-center align-items-center p-4 mx-6 mx-md-0">
+                    <div class="input-group">
+                        <span class="sub-size bg-main-lighter d-flex justify-content-center align-items-center"
+                        style="width: 60px;">
+                            <i class="fas fa-envelope h4 text-main-darker"></i>
+                        </span>
+                        <input type="email" class="form-control sub-size bg-main-lighter" placeholder="E-mail">
+                        <div class="input-group-append sub-size">
+                            <button class="btn btn-second-color" type="button" id="subscript"
+                            style="width: 60px;">
+                                <i class="far fa-hand-pointer h5"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer bg-main-lighter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex flex-column justify-content-md-between text-left">
+                    <div class="py-4 justify-content-center text-main-darker">
+                        <h2 class="mb-0 ml-3">倆傢家居</h2>
+                        <small class="ml-3 pl-1">2HOME FURNITURE</small>
+                    </div>
+                    <div class="list-unstlyed pl-0 h5 ">
+                        <small class="text-main-color">04-1234-5678</small><br>
+                        <small>
+                            <a class="text-main-color" href="mailto:2HOMEFURNITURE@email.com">2HOME FURNITURE@email.com</a>
+                        </small><br>
+                        <small class="text-main-color">437 台中市大甲區蔣公路 2 號</small>
+                    </div>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <div>
+                        <h4 class="vertical-content-text  text-main-darker verticla-title pt-4 ml-auto">
+                            每天都是 －
+                            <br>
+                            享受的好日子。
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 pb-4 justify-content-center text-main-color">
+                <div class="col-md-5 col-4">
+                    <a href="#" class="text-main-color">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="#" class="text-main-color">
+                        <i class="fas fa-at fa-2x"></i>
+                    </a>
+                    <a href="#" class="text-main-color">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+                <div class="col-md-5 col-8 text-right">
+                    <span >© 2020 All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/all.js"></script> -->
+</body>
+
+</html>
